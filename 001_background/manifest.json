@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Hello bg",
+    "version": "1.0",
+
+    "description": "loading empty background script",
+
+    "background": {
+      "service_worker": "my_service_worker.js"
+    }
+}

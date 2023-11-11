@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "webex_example_003",
+  "version": "1.0",
+
+  "description": "sample",
+
+  "content_scripts": [
+    {
+      "matches":[
+        "https://*.wikipedia.org/*"
+      ],
+      "js": ["my_content_script.js"]
+    }
+  ]
+}

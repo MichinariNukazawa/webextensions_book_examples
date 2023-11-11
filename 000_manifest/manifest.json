@@ -1,0 +1,7 @@
+{
+    "manifest_version": 3,
+    "name": "Hello WebExtensions",
+    "version": "1.0",
+  
+    "description": "manifest.json only"
+}

@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "popup example",
+  "version": "1.0",
+
+  "description": "popup example WebExtensions",
+
+  "icons": {
+    "128": "icons/light-on-128.png"
+  },
+
+  "action": {
+		"default_popup": "popup/popup_menu.html"
+	}
+}

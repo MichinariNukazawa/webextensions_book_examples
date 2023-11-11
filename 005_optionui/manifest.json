@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "option_ui example",
+  "version": "1.0",
+
+  "description": "option_ui example WebExtensions",
+
+  "icons": {
+    "128": "icons/light-on-128.png"
+  },
+
+  "options_page": "option_ui/option_ui_page.html"
+}

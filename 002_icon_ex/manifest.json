@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "icon sema",
+  "version": "1.0",
+
+  "description": "icon button sample",
+
+  "icons": {
+    "128": "icons/light-on-128.png"
+  },
+
+  "action": {
+    "default_icon": {
+      "128": "icons/light-off-128.png"
+    }
+  },
+
+  "background": {
+    "service_worker": "my_service_worker.js",
+    "type": "module"
+  }
+}
